@@ -1,0 +1,59 @@
+---
+title: "Report_4_Cover"
+author: "Teste1"
+date: "11/02/2022"
+output: html_document
+css: "../../css/style_cover.css"
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# install.packages("pacman")
+library("pacman")        
+p_load(tidyverse,shiny,shinydashboard,shinyWidgets,gt,gtExtras,plotly,vembedr,showtext)
+```
+
+<span id = "inspiration">Inspiração: https://br.pinterest.com/pin/784189353878982045/</span>
+
+# <span id = 'first'>ED'S</span><span id = 'second'>NOTE</span>{#principal-cover}
+
+
+
+![**Leo dress** R980, Adriaan Kuiters **Moon rarrings** R800, Pichulik **Villa Lena bracelet** R1 390, Steffany Roup **Shot on location** Giulio's Café , Loop street, Cape Town](../../img/woman_2_medium.jpg){#logo-top}
+
+
+> 'EVENTUALLY EVERYTHING CONNECTS - PEOPLE, IDEAS, OBJECTS, THE QUALITY OF THE CONNECTIONS IS THE KEY TO QUALITY PER SE' - Charles Eames
+
+
+
+## EDITOR'S NOTE{#title}
+
+::: {#left-column}
+To be frank, to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a **Lorem Ipsum **passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the *Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet.."*, comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+:::
+
+::: {#right-column}
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at **Hampden-Sydney College in Virginia**, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 *from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation* by H. Rackham. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+
+:::
+
+
+## Bielle{#footer}
+
+
+```{r, echo = F}
+library(fontawesome)
+fontawesome::fa(name = "twitter", height = "25px", width = "25px", fill = 'white', stroke = 'black',stroke_width = '5px')
+fontawesome::fa(name = "instagram", height = "25px", width = "25px",margin_left = '5px', fill = 'white', stroke = 'black',stroke_width = '5px')
+```
+
+<span id = 'email'>@biellebellingham</span>
+<br>
+<span>THE TRENDS **ELLEDECORATION.CO.ZA**</span>
