@@ -21,7 +21,7 @@ p_load(tidyverse,shiny,shinydashboard,shinyWidgets,gt,gtExtras,plotly,vembedr,sh
 
 
 
-![**Leo dress** R980, Adriaan Kuiters **Moon rarrings** R800, Pichulik **Villa Lena bracelet** R1 390, Steffany Roup **Shot on location** Giulio's Café , Loop street, Cape Town](../../img/woman_2_medium.jpg){#logo-top}
+![**Leo dress** R980, Adriaan Kuiters **Moon rarrings** R800, Pichulik **Villa Lena bracelet** R1 390, Steffany Roup **Shot on location** Giulio's Café , Loop street, Cape Town](../img/woman_2_medium.jpg){#logo-top}
 
 
 > 'EVENTUALLY EVERYTHING CONNECTS - PEOPLE, IDEAS, OBJECTS, THE QUALITY OF THE CONNECTIONS IS THE KEY TO QUALITY PER SE' - Charles Eames
